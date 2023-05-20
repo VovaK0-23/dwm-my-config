@@ -46,3 +46,11 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+Update DWM
+----------
+
+    git remote set-url origin {url of your repo}
+    git push
+    git remote add upstream https://git.suckless.org/dwm
+    git pull upstream master
